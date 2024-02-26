@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/564x/a2/e1/7a/a2e17af3c337ea19b5ca7ebbf8f87401.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.jumbotron {
+    text-align: center;
+    margin:  auto;
+    color: rgb(216, 27, 131);
+    width: 700px;
+    height: 700px;
+    
+    
+}
+
+#kel, #fah {
+    
+    text-align: center;
+    margin: 20px auto;
+    font-size: 25px;
+    width: 200px;
+    width: 400px;
+    color: rgb(146, 196, 236);
+    background-image: url('https://i.pinimg.com/564x/0d/83/e2/0d83e25ee3464903dbc0bd23b040ea86.jpg');
+}
+
+#kel:hover, #fah:hover {
+ 
+    color: rgb(185, 168, 226);
+    background-image: url('https://i.pinimg.com/564x/ad/ec/cf/adeccf696d2bac528283836cd69f4c1a.jpg');
+}
+
+.baslik {
+    margin: 100px auto;
+    will-change: filter;
+    transition: filter 200ms;
+    color:rgb(238, 178, 13)
+    
+}
